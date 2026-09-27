@@ -36,7 +36,7 @@ Eksperimen ini membandingkan dua pendekatan dalam melakukan sentiment analysis:
 
 #### Perbandingan Metrik Kuantitatif (pada 40 Test Data)
 
-| Metrik / Parameter | Pendekatan Klasik (TF-IDF + LogReg) | Pendekatan LLM (Gemini Flash-Lite) |
+| Metrik / Parameter | Pendekatan Klasik (TF-IDF + LogReg) | Pendekatan LLM (Gemini 3.1 Flash-Lite) |
 | :--- | :---: | :---: |
 | **Accuracy** | **1.00 (100%)** | **1.00 (100%)** | 
 | **Precision (Macro Avg)** | **1.00** | **1.00** | 
@@ -44,7 +44,7 @@ Eksperimen ini membandingkan dua pendekatan dalam melakukan sentiment analysis:
 | **F1-Score (Macro Avg)** | **1.00** | **1.00** | 
 | **Inference Time (Latensi)** | **~0.0015 detik** | **~1.22 detik** | 
 | **Biaya Komputasi (Cost)** | Gratis (CPU Lokal) | Berbayar / Kuota API | 
-| **Dependensi Infrastruktur** | Offline / Local Memory | 
+| **Dependensi Infrastruktur** | Offline / Local Memory | API Request via Internet connection
 
 ---
 
